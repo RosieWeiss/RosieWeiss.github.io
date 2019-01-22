@@ -1,2 +1,2 @@
 # RosieWeiss.github.io
-Public url
+Public url (https://RosieWeiss.github.io)
