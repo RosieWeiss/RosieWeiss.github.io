@@ -1,0 +1,13 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+.border {
+  border: 1px solid #000000
+}
+.margin10 {
+  margin: 10px;
+}
+body {background: #666666;}
+main { background: #FFFFFF;}
+header {text-align: center;}

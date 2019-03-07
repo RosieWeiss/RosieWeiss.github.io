@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+div, img {
+  border: 1px solid #000000;
+}
+.grid2 {
+  margin-top: 100px;
+  width: 960px;
+  background: #cccccc;
+  display: grid;
+  grid-template-columns: 2fr 3fr 4fr;
+  max-width: 100%;
+}

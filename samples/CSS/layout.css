@@ -1,0 +1,46 @@
+
+.border {
+  border: 1px solid #000000
+}
+.margin10 {
+  margin: 10px;
+}
+.rightcolumn{
+  display: block;
+  min-height: 100px;
+  width: 570px;
+  float: right;
+  padding: 10px;
+}
+.leftcolumn{
+  display: block;
+  min-height: 100px;
+  width: 300px;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+main {
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background: #FFFFFF;
+}
+body {
+  background: #666666;
+}
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  text-align: center;
+}
+section{
+  min-height: 100px;
+}

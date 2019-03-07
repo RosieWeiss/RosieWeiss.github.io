@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  text-align: center;
+}
+
+.grid2 {
+  margin-top: 100px;
+  background: #cccccc;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  max-width: 100%;
+}
