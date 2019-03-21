@@ -1,0 +1,46 @@
+.grid1 {
+  grid-template-columns: 1fr;
+}
+.grid2 {
+  grid-template-columns: 1fr;
+}
+.grid3 {
+  grid-template-columns: 1fr;
+}
+.grid4 {
+  grid-template-columns: 1fr;
+}
+
+nav ul {
+  grid-template-columns: 1fr;
+}
+
+nav li {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.grid3 ul {
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 110px
+}
+
+p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+#gallery div {
+  padding: 8px;
+}
+
+#contactus h3 {
+  margin-bottom: 10px;
+}
+
+#bios img {
+  margin-bottom: 10px;
+}
