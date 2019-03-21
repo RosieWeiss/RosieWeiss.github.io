@@ -37,10 +37,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.grid3 a:hover {
-  font-weight: bold;
-}
-
 main {
   padding: 0px;
   margin: 0px;
@@ -90,7 +86,7 @@ h3 {
 }
 
 hr {
-  border-style: gray;
+  color: gray;
   border-width: 1px;
   margin: 10px;
 }
@@ -125,6 +121,8 @@ hr {
 }
 
 #bios img {
+  width: 125px;
+  float: left;
   margin-right: 15px;
   border: 3px ridge white;
 }
