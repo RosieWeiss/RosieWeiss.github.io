@@ -25,14 +25,17 @@ nav ul {
 header {
   width: 960px;
 }
+
 main {
   width: 960px;
   margin: 0;
   padding: 0;
 }
+
 h1 {
-    font-size: 125px;
+  font-size: 125px;
 }
+
 p {
   line-height: 25px;
 }

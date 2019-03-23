@@ -1,12 +1,6 @@
-.grid1 {
-  grid-template-columns: 1fr;
-}
-.grid2 {
-  grid-template-columns: 1fr;
-}
-.grid3 {
-  grid-template-columns: 1fr;
-}
+.grid1,
+.grid2,
+.grid3,
 .grid4 {
   grid-template-columns: 1fr;
 }
