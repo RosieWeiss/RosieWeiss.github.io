@@ -45,6 +45,7 @@ $('.next').on('click',function(){
     $('.next').hide();
     $('#final').html('<em>Blend & Enjoy!</em');
     $('#final').css('font-size','25px')
+    $('#final').css('margin','0px')
   }
   //make the change only if under number of steps; solves undefined problem
   if(step <= 5){
