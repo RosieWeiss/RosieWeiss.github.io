@@ -18,13 +18,18 @@ p {
 }
 img {
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 3px double black;
 }
 
 body {
   background-color: #E6C3D7;
 }
 
-.start, .prev, .next {
+button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #791D53;
@@ -35,12 +40,8 @@ body {
   padding: 6px;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  border: 3px double black;
+button:hover {
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .description, .intro {
