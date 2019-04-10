@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vacation site</title>
+  <link rel="stylesheet" type="text/css" href="pagePiling.js-master/dist/jquery.pagepiling.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <ul id="menu">
+    <li data-menuanchor="page1" class="active"><a href="#page1">Yellowstone National Park</a></li>
+    <li data-menuanchor="page2"><a href="#page2">Old Faithful</a></li>
+    <li data-menuanchor="page3"><a href="#page3">Grand Prismatic</a></li>
+    <li data-menuanchor="page4"><a href="#page4">Mammoth Hot Springs</a></li>
+    <li data-menuanchor="page5"><a href="#page5">Yellowstone Falls</a></li>
+    <li data-menuanchor="page6"><a href="#page6">Wildlife</a></li>
+  </ul>
+
+  <div id="pagepiling">
+    <div class="section">
+      <h1>Vacation to Yellowstone National Park</h1>
+      <img src="images/daylight-farm-field-534398.jpg" alt="Yellowstone National Park">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="section">
+      <h1>Old Faithful Geyser</h1>
+      <img src="images/peter-gonzalez-470973-unsplash.jpg" alt="Old Faithful Geyser">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    </div>
+    <div class="section">
+      <h1>Grand Prismatic Spring</h1>
+      <img src="images/blue-boiling-clouds-261091.jpg" alt="Grand Prismatic Spring">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    </div>
+    <div class="section">
+      <h1>Mammoth Hot Springs</h1>
+      <img src="images/clouds-daylight-landmark-843556.jpg" alt="Mammoth Hot Springs">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    </div>
+    <div class="section">
+      <h1>Yellowstone Falls</h1>
+      <img src="images/riley-mcneal-209169-unsplash.jpg" alt="Yellowstone Falls">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    </div>
+    <div class="section">
+      <h1>Wildlife</h1>
+      <img src="images/chloe-leis-334258-unsplash.jpg" alt="Bison">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    </div>
+  </div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="pagePiling.js-master/dist/jquery.pagepiling.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#pagepiling').pagepiling({
+        menu: '#menu',
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+        sectionsColor: ['#B7CC66', '#D9D5CA', '#D79F61', '#94A7A1'],
+        navigation: false,
+      });
+    });
+  </script>
+
+</body>
+
+</html>
