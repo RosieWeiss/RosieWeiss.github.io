@@ -20,13 +20,13 @@ p {
 
 #menu li {
 	display:inline-block;
-	margin: 10px;
-	color: #000;
-	background:#fff;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 8px;
 	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px;
-            border-radius: 10px;
+  border-radius: 5px;
 }
+
 #menu li.active{
 	background:#666;
 	background: rgba(0,0,0, 0.5);
@@ -44,7 +44,7 @@ p {
 }
 #menu li a,
 #menu li.active a{
-	padding: 9px 18px;
+	padding: 6px 10px;
 	display:block;
 }
 #menu li.active a{
