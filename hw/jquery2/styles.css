@@ -11,10 +11,14 @@ img {
 h1 {
 	text-align: center;
 	margin-top: 50px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	line-height: 50px;
 }
 
 p {
 	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Menu styling*/
@@ -26,6 +30,7 @@ p {
 	margin-top: 8px;
 	background: rgba(255,255,255, 0.5);
   border-radius: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #menu li.active{
