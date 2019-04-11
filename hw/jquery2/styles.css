@@ -18,7 +18,13 @@ h1 {
 
 p {
 	text-align: center;
+	width: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
+	background: rgba(255,255,255, 0.5);
+	padding: 25px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 /* Menu styling*/
